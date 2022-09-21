@@ -26,6 +26,12 @@ Mustafa Samet Cimen
 
 ## Version History
 
+* 0.4
+   * Updated FBLA color scheme to fit current color format
+   * RELOCATED: ehtfbla.org 
+      * Purpose: Domain expiration/compromise
+   * Semptember 20, 2022
+
 * 0.3
     * Bug fixes
     * New Office page format
