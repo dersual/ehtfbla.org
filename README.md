@@ -27,6 +27,11 @@ Mustafa Samet Cimen
 ## Version History
 
 * 0.4
+   * Updated FBLA favicon.png 
+   * Added 'add to calendar' button for events section
+   * October 03, 2022
+
+* 0.4
    * Updated FBLA color scheme to fit current color format
    * RELOCATED: ehtfbla.org 
       * Purpose: Domain expiration/compromise
