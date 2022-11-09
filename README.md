@@ -26,7 +26,7 @@ Mustafa Samet Cimen
 
 ## Version History
 
-* 0.4
+* 0.5
    * Updated FBLA favicon.png 
    * Added 'add to calendar' button for events section
    * October 03, 2022
