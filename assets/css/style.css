@@ -1267,6 +1267,7 @@ Forms Section
 --------------------------------------------------------------*/
 #form {
   padding: 60px 0;
+  margin-top: 1rem;
 }
 
 #form .card {
