@@ -1681,6 +1681,9 @@ Forms Section
   #form .nav-tabs a {
     padding: 8px 50px;
   }
+  .workshops{
+    margin-top: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1757,5 +1760,5 @@ Forms Section
  border-radius: 50%;
 }
 .classroom{
-  padding:60px
+  margin:auto;
 }
