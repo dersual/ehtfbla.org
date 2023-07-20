@@ -817,7 +817,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 Forms Section
 --------------------------------------------------------------*/
 #form { 
-  overflow: hidden;
+  overflow-x: hidden; 
+  padding: 0 0 40px 0;
 } 
 
 #form .section-header {
