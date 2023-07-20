@@ -29,7 +29,10 @@ Derrick Sual
 [@derrick.sual](https://linktr.ee/derrick.sual)
 
 ## Version History
-
+- 0.7  
+    - Fix bug regarding mobile overflow 
+    - Increase Lighthouse accessibility score  
+    - July 20, 2023
 - 0.6   
     - Changed overall page layout order
     - Restructured About, Forms, Schedule Sections    
