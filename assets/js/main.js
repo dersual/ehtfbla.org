@@ -530,8 +530,8 @@ const testEventsArray = [
       type: "Event",
       properties: {
         name: "FBLA EHT Nerfball",
-        startDate: "2023-01-12",
-        endDate: "2023-01-12",
+        startDate: "2024-01-12",
+        endDate: "2024-01-12",
         startTime: "17:00",
         endTime: "21:00",
         label: "Add To Calendar",
