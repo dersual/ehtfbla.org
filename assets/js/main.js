@@ -548,8 +548,8 @@ const testEventsArray = [
       location: "Middle Cafeteria",
       properties: {
         name: "General Meeting #3",
-        startDate: "2023-10-20",
-        endDate: "2023-10-20",
+        startDate: "2023-10-19",
+        endDate: "2023-10-19",
         startTime: "14:00",
         endTime: "15:10",
         label: "Add To Calendar",
