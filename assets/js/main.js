@@ -721,9 +721,24 @@ const testEventsArray = [
     {
       type: "Event",
       properties: {
+        name: "ShopRite Bagging Volunteer Event",
+        startDate: "2023-10-29",
+        endDate: "2023-10-29",
+        startTime: "09:00",
+        endTime: "12:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      },
+    },
+    {
+      type: "Event",
+      properties: {
         name: "EHT FBLA Induction Dinner",
-        startDate: "2024-11-28",
-        endDate: "2024-11-28",
+        startDate: "2023-11-28",
+        endDate: "2023-11-28",
         startTime: "18:00",
         endTime: "21:00",
         label: "Add To Calendar",
