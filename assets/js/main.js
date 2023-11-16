@@ -778,6 +778,22 @@ const testEventsArray = [
         trigger: "click",
       },
     },
+    
+    {
+      type: "Event",
+      properties: {
+        name: "EHT FBLA Induction Dinner",
+        startDate: "2023-11-28",
+        endDate: "2023-11-28",
+        startTime: "18:00",
+        endTime: "20:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      },
+    }, 
     {
       type: "Event",
       properties: {
@@ -792,15 +808,15 @@ const testEventsArray = [
         inline: true,
         trigger: "click",
       },
-    },
+    }, 
     {
       type: "Event",
       properties: {
-        name: "EHT FBLA Induction Dinner",
-        startDate: "2023-11-28",
-        endDate: "2023-11-28",
-        startTime: "18:00",
-        endTime: "21:00",
+        name: "Chipotle Mays Landing",
+        startDate: "2023-12-18",
+        endDate: "2023-12-18",
+        startTime: "16:00",
+        endTime: "20:00",
         label: "Add To Calendar",
         options: ["Google", "Microsoft365", "Yahoo", "Apple"],
         timeZone: "America/New_York",
