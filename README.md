@@ -80,5 +80,6 @@ Inspiration, code snippets, etc.
 - [javascript-documentation](<[https://docs.djangoproject.com/en/4.1/](https://developer.mozilla.org/en-US/docs/Web/JavaScript)>)
 - [csstailwind](https://tailwindcss.com/docs/installation)
 - [visualstudiocode](https://code.visualstudio.com/) 
-- [30 seconds of code](https://www.30secondsofcode.org/)
+- [30 seconds of code](https://www.30secondsofcode.org/) 
+- [Google Spreadsheets API Documentation](https://developers.google.com/sheets/api/guides/concepts)
 - html resources
