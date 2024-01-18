@@ -824,7 +824,7 @@ const testEventsArray = [
         trigger: "click",
       },
     },
-    {
+    /*{
       type: "Event",
       properties: {
         name: "FBLA EHT Nerfball",
@@ -838,7 +838,7 @@ const testEventsArray = [
         inline: true,
         trigger: "click",
       },
-    },
+    },*/
     {
       type: "Event",
       properties: {
