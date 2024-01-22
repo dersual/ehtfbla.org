@@ -5,10 +5,9 @@ let freshmen, sophmores, juniors, seniors;
 
 function initializeGAPI() {
   gapi.load("client", async () => {
-    let devApiKey = "AIzaSyDzcSRFPCgb9XkFLCj94jx1ECQN4jcuSD0";
     let apiKey = "AIzaSyCd93SREQCuW1PfUTpwpyybu8hAEZk-LLs";
     await gapi.client.init({
-      apiKey: devApiKey,
+      apiKey: apiKey,
       discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
     });
     await callSpreadSheetAPI();
