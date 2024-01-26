@@ -426,9 +426,70 @@
         <div class="container" data-aos = "fade-up"> 
           <div class="section-header"> 
             <h2>Hours</h2>
-          </div>  
-          
-          <table id="freshmen"></table>
+          </div>       
+          <!--New Code Added(To be worked on)-->
+          <div class="container" id="hours_displayContainer" data-aos = "fade-up"> 
+
+          <ul class = "nav nav-tabs" id="hours_tablist" role="tablist">  
+            <li class = "nav-item" role = "presentation"> 
+              <button class = "nav-link hours_tabs active" id = "hours_freshmanTab" data-bs-target = "#freshmen" aria-controls="freshmen" aria-selected="true"  type = "button" role = "tab" data-bs-toggle = "tab" >Freshmen</button>
+            </li> 
+            <li class = "nav-item" role = "presentation"> 
+              <button class = "nav-link hours_tabs" id = "hours_sophmoreTab" data-bs-target = "#sophmores" aria-controls="sophmores" aria-selected="false"  type = "button" role = "tab" data-bs-toggle = "tab" >Sophmores</button>
+            </li> 
+            <li class = "nav-item" role = "presentation"> 
+              <button class = "nav-link hours_tabs" id = "hours_juniorTab" data-bs-target = "#juniors" aria-controls="juniors" aria-selected="false"  type = "button" role = "tab" data-bs-toggle = "tab" >Juniors</button>
+            </li> 
+            <li class = "nav-item" role = "presentation"> 
+              <button class = "nav-link hours_tabs" id = "hours_seniorTab" data-bs-target = "#seniors" aria-controls="seniors" aria-selected="false"  type = "button" role = "tab" data-bs-toggle = "tab" >Seniors</button>
+            </li>
+          </ul>
+          <div class = "container">  
+            <header class = "row"></header> 
+            <main class = "row tab-content" id = "hours_display"> 
+              <table class = "table table-bordered tab-pane fade show active" id = "freshmen" class = "col-12" role="tabpanel"> 
+                <thead class = "table-dark"> 
+                  <tr> 
+                    <th scope = "col">#</th> 
+                    <th scope = "col">Name</th> 
+                    <th scope = "col">Grade</th> 
+                    <th scope = "col">Hours</th> 
+                  </tr>
+                </thead>
+              </table> 
+              <tabel class = "table table-bordered tab-pane fade " id = "sophmores" class = "col-12" role="tabpanel"> 
+                <thead class = "table-dark"> 
+                  <tr> 
+                    <th scope = "col">#</th> 
+                    <th scope = "col">Name</th> 
+                    <th scope = "col">Grade</th> 
+                    <th scope = "col">Hours</th> 
+                  </tr>
+                </thead>
+              </tabel> 
+              <table class = "table table-bordered tab-pane fade " id = "juniors" class = "col-12" role="tabpanel"> 
+                <thead class = "table-dark"> 
+                  <tr> 
+                    <th scope = "col">#</th> 
+                    <th scope = "col">Name</th> 
+                    <th scope = "col">Grade</th> 
+                    <th scope = "col">Hours</th> 
+                  </tr>
+                </thead>
+              </table> 
+              <table class = "table table-bordered tab-pane fade " id = "seniors" class = "col-12" role="tabpanel"> 
+                <thead class = "table-dark"> 
+                  <tr> 
+                    <th scope = "col">#</th> 
+                    <th scope = "col">Name</th> 
+                    <th scope = "col">Grade</th> 
+                    <th scope = "col">Hours</th> 
+                  </tr>
+                </thead>
+              </table>
+            </main>
+          </div>
+          </div>
         </div>
       </section>
       <!-- =======  Officer Section ======= -->
