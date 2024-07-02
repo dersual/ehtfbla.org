@@ -43,10 +43,10 @@
       as="image"
       href="assets/img/intro.jpg"
       type="image/jpg"
-    /> 
-    <!--preload FBLA Hours Requests-->  
+    />
+    <!--preload FBLA Hours Requests-->
     <script src="https://apis.google.com/js/api.js"></script>
-    <script async src = "assets/js/hours.js"></script>
+    <script async src="assets/js/hours.js"></script>
   </head>
 
   <body>
@@ -66,7 +66,7 @@
             <li class="menu-active"><a aria-label="Home" href="index">Home</a></li>
             <li><a aria-label="About" href="#about">About</a></li>
             <li><a aria-label="Forms" href="#form">Forms</a></li>
-            <li><a aria-label="Schedule" href="#schedule">Schedule</a></li> 
+            <li><a aria-label="Schedule" href="#schedule">Schedule</a></li>
             <li><a aria-label="Hours" href="#hours">Hours</a></li>
             <li><a aria-label="Officers" href="#officers">Officers</a></li>
             <li><a aria-label="Alumni" href="alumni">Alumni</a></li>
@@ -366,13 +366,11 @@
             </div>
             <div id="schedule_panel" class="container col-lg-4 col-sm-10 p-3">
               <div class="row justify-content-center">
-                <div id = "schedule_announcements" class="panel px-2 pt-2 col-12">
+                <div id="schedule_announcements" class="panel px-2 pt-2 col-12">
                   <h4 class="schedule_panelHeader w-100 p-2">Announcements</h4>
                   <ul class="w-100 font-italic overflow-auto schedule_main">
-                    <!--No new announcements as of now!--> 
-                    <li>Nerfball date has been moved, date to be determined</li> 
-                    <li>Meeting this week 1/18/2024</li>   
-                    <li>NJFBLA Scholarship Info On Google Classroom</li>
+                    <!--No new announcements as of now!-->
+                    <li>HAVE A GOOD SUMMER - Derrick Sual signing out</li>
                   </ul>
                 </div>
                 <div id="schedule_todayEvents" class="panel px-2 pt-2 col-12">
@@ -421,74 +419,141 @@
           </div>
         </div>
       </section>
-      <!-- End Schedule Section --> 
-      <section id="hours" class="section-with-bg"> 
-        <div class="container" data-aos = "fade-up"> 
-          <div class="section-header"> 
-            <h2>Hours</h2>
-          </div>       
-          <!--New Code Added(To be worked on)-->
-          <div class="container" id="hours_displayContainer" data-aos = "fade-up"> 
+      <!-- End Schedule Section -->
 
-          <ul class = "nav nav-tabs" id="hours_tablist" role="tablist">  
-            <li class = "nav-item" role = "presentation"> 
-              <button class = "nav-link hours_tabs active" id = "hours_freshmanTab" data-bs-target = "#freshmen" aria-controls="freshmen" aria-selected="true"  type = "button" role = "tab" data-bs-toggle = "tab" >Freshmen</button>
-            </li> 
-            <li class = "nav-item" role = "presentation"> 
-              <button class = "nav-link hours_tabs" id = "hours_sophmoreTab" data-bs-target = "#sophmores" aria-controls="sophmores" aria-selected="false"  type = "button" role = "tab" data-bs-toggle = "tab" >Sophmores</button>
-            </li> 
-            <li class = "nav-item" role = "presentation"> 
-              <button class = "nav-link hours_tabs" id = "hours_juniorTab" data-bs-target = "#juniors" aria-controls="juniors" aria-selected="false"  type = "button" role = "tab" data-bs-toggle = "tab" >Juniors</button>
-            </li> 
-            <li class = "nav-item" role = "presentation"> 
-              <button class = "nav-link hours_tabs" id = "hours_seniorTab" data-bs-target = "#seniors" aria-controls="seniors" aria-selected="false"  type = "button" role = "tab" data-bs-toggle = "tab" >Seniors</button>
-            </li>
-          </ul>
-          <div class = "container">  
-            <header class = "row"></header> 
-            <main class = "row tab-content" id = "hours_display"> 
-              <table class = "table table-bordered tab-pane fade show active" id = "freshmen" class = "col-12" role="tabpanel"> 
-                <thead class = "table-dark"> 
-                  <tr> 
-                    <th scope = "col">#</th> 
-                    <th scope = "col">Name</th> 
-                    <th scope = "col">Grade</th> 
-                    <th scope = "col">Hours</th> 
+      <!-- Hours Section-->
+      <section id="hours" class="section-with-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Hours</h2>
+          </div>
+          <!--New Code Added(To be worked on)-->
+          <div class="container" id="hours_displayContainer" data-aos="fade-up">
+            <ul class="w-100 nav nav-tabs nav-fill" id="hours_tablist" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link hours_tabs border border-start-0 active w-100"
+                  id="hours_freshmanTab"
+                  data-target="#freshmen"
+                  aria-controls="freshmen"
+                  aria-selected="true"
+                  type="button"
+                  role="tab"
+                  data-toggle="tab"
+                >
+                  Freshmen
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link hours_tabs border border-start-0 w-100"
+                  id="hours_sophmoreTab"
+                  data-target="#sophmores"
+                  aria-controls="sophmores"
+                  aria-selected="false"
+                  type="button"
+                  role="tab"
+                  data-toggle="tab"
+                >
+                  Sophmores
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link hours_tabs w-100 border border-start-0"
+                  id="hours_juniorTab"
+                  data-target="#juniors"
+                  aria-controls="juniors"
+                  aria-selected="false"
+                  type="button"
+                  role="tab"
+                  data-toggle="tab"
+                >
+                  Juniors
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link hours_tabs w-100 border border-start-0"
+                  id="hours_seniorTab"
+                  data-target="#seniors"
+                  aria-controls="seniors"
+                  aria-selected="false"
+                  type="button"
+                  role="tab"
+                  data-toggle="tab"
+                >
+                  Seniors
+                </button>
+              </li>
+            </ul>
+
+            <main class="w-100 tab-content" id="hours_display">
+              <table
+                class="table table-striped tab-pane fade show active"
+                id="freshmen"
+                class="col-12"
+                role="tabpanel"
+              >
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col" class="id">#</th>
+                    <th scope="col" class="name">Name</th>
+                    <th class="grade" scope="col">Grade</th>
+                    <th scope="col">Hours</th>
                   </tr>
                 </thead>
-              </table> 
-              <tabel class = "table table-bordered tab-pane fade " id = "sophmores" class = "col-12" role="tabpanel"> 
-                <thead class = "table-dark"> 
-                  <tr> 
-                    <th scope = "col">#</th> 
-                    <th scope = "col">Name</th> 
-                    <th scope = "col">Grade</th> 
-                    <th scope = "col">Hours</th> 
+                <tbody id="freshmen_tbody"></tbody>
+              </table>
+              <table
+                class="table table-striped tab-pane fade"
+                id="sophmores"
+                class="col-12"
+                role="tabpanel"
+              >
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col" class="id">#</th>
+                    <th scope="col" class="name">Name</th>
+                    <th class="grade" scope="col">Grade</th>
+                    <th scope="col">Hours</th>
                   </tr>
                 </thead>
-              </tabel> 
-              <table class = "table table-bordered tab-pane fade " id = "juniors" class = "col-12" role="tabpanel"> 
-                <thead class = "table-dark"> 
-                  <tr> 
-                    <th scope = "col">#</th> 
-                    <th scope = "col">Name</th> 
-                    <th scope = "col">Grade</th> 
-                    <th scope = "col">Hours</th> 
+                <tbody id="sophmore_tbody"></tbody>
+              </table>
+              <table
+                class="table table-striped tab-pane fade"
+                id="juniors"
+                class="col-12"
+                role="tabpanel"
+              >
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col" class="id">#</th>
+                    <th scope="col" class="name">Name</th>
+                    <th class="grade" scope="col">Grade</th>
+                    <th scope="col">Hours</th>
                   </tr>
                 </thead>
-              </table> 
-              <table class = "table table-bordered tab-pane fade " id = "seniors" class = "col-12" role="tabpanel"> 
-                <thead class = "table-dark"> 
-                  <tr> 
-                    <th scope = "col">#</th> 
-                    <th scope = "col">Name</th> 
-                    <th scope = "col">Grade</th> 
-                    <th scope = "col">Hours</th> 
+                <tbody id="junior_tbody"></tbody>
+              </table>
+              <table
+                class="table table-striped tab-pane fade"
+                id="seniors"
+                class="col-12"
+                role="tabpanel"
+              >
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col" class="id">#</th>
+                    <th scope="col" class="name">Name</th>
+                    <th class="grade" scope="col">Grade</th>
+                    <th scope="col">Hours</th>
                   </tr>
                 </thead>
+                <tbody id="senior_tbody"></tbody>
               </table>
             </main>
-          </div>
           </div>
         </div>
       </section>
@@ -1157,15 +1222,15 @@
                     Thousands of NJ FBLA members gather at Harrah's in Atlantic City for the annual
                     State Leadership Conference. Over the course of three days in March, members
                     participate in the Opening Session, Workshops, Competitions, Awards and
-                    Recognition Session, and other fun events like the Dance. The theme for the 2023
-                    NJSLC was ILLUMINATE.
+                    Recognition Session, and other fun events like the Dance. The theme for the 2024
+                    NJSLC was AMPLIFY.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+        <!--photos shown are from 2023 NJSLC-->
         <div class="container-fluid slc-gallery-container" data-aos="fade-up" data-aos-delay="100">
           <div class="row no-gutters justify-content-center">
             <div class="col-lg-3 col-md-4">
@@ -1388,13 +1453,13 @@
       </section>
       <!-- End Gallery Section -->
 
-      <section class="container p-2" data-aos="fade-up">
+      <section class="container p-2 mb-2" data-aos="fade-up">
         <div class="section-header">
           <h2>Awards</h2>
         </div>
 
-        <div class="row">
-          <div class="col-6 slc-gallery">
+        <div class="row justify-content-center" style="gap: 0.75em">
+          <div class="col-5 slc-gallery award">
             <a
               href="assets/img/championChapter.webp"
               class="venobox"
@@ -1405,7 +1470,7 @@
             </a>
           </div>
 
-          <div class="col-6 slc-gallery">
+          <div class="col-5 slc-gallery award">
             <a
               href="assets/img/summerStarter.webp"
               class="venobox"
@@ -1414,6 +1479,46 @@
             >
               <img src="assets/img/summerStarter.webp" alt="Summer Starter" class="img-fluid" />
             </a>
+          </div>
+
+          <div class="col-5 slc-gallery award">
+            <a
+              href="assets/img/CTE-Celebration-2023-2024.png"
+              data-gall="slc-gallery"
+              data-title="CTE Celebration"
+              class="venobox"
+            >
+              <img
+                src="assets/img/CTE-Celebration-2023-2024.png"
+                alt="CTE Celebration"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-5 slc-gallery award">
+            <a
+              href="assets/img/ServiceSeason-2023-2024.png"
+              data-gall="slc-gallery"
+              data-title="Service Season"
+              class="venobox"
+              ><img
+                src="assets/img/ServiceSeason-2023-2024.png"
+                alt="Service Season"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-5 slc-gallery award">
+            <a
+              href="assets/img/Shaping-Success-2023-2024.png"
+              data-gall="slc-gallery"
+              data-title="Shaping Success"
+              class="venobox"
+            >
+              <img
+                src="assets/img/Shaping-Success-2023-2024.png"
+                alt="Shaping Success"
+                class="img-fluid"
+            /></a>
           </div>
         </div>
       </section>
@@ -1646,7 +1751,15 @@
           <div class="atcbContainer col-md-5"></div>
         </div>
       </div>
-    </template> 
+    </template>
+    <template class="template_table_row">
+      <tr class="table_row">
+        <th class="id" scope="row"></th>
+        <td class="name"></td>
+        <td class="grade"></td>
+        <td class="hours"></td>
+      </tr>
+    </template>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>

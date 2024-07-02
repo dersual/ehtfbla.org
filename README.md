@@ -14,7 +14,8 @@ EHT FBLA was restarted back in 2016. Ever since then, it has been an organizatio
 - css
 - javascript
 - jquery
-- bootstrap
+- bootstrap 
+- google api
 
 ## Authors
 
@@ -28,7 +29,15 @@ Mustafa Samet Cimen
 Derrick Sual
 [@derrick.sual](https://linktr.ee/derrick.sual)
 
-## Version History
+## Version History  
+Where major feature additions, structural changes, and bug fixes should be documented. 
+- 0.8 
+    - Added Hours Section   
+    - Added Google API Scripts
+    - Updated Sara Abbas Officer Picture  
+    - Added More Awards (Images are unoptimized)  
+    - Uploaded new gallery photos (not being displayed though & are unoptimized)
+    - June 25, 2024
 - 0.7  
     - Fix bug regarding mobile overflow 
     - Increase Lighthouse accessibility score  

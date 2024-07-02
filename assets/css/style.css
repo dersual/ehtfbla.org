@@ -17,6 +17,7 @@
   --accent-blue: #022b85; /*#112363*/
   --background: #f6f7fd;
   --shadow-color: 0deg 0% 0%;
+  --shadow-color-2: 232deg 18% 57%;
   --shadow-elevation-low: 0.7px 0.7px 1.1px hsl(var(--shadow-color) / 0.1),
     1.2px 1.2px 1.9px -1.2px hsl(var(--shadow-color) / 0.1),
     2.9px 2.8px 4.5px -2.5px hsl(var(--shadow-color) / 0.1);
@@ -32,6 +33,22 @@
     32.2px 31.6px 50.8px -1.8px hsl(var(--shadow-color) / 0.1),
     48.9px 48px 77.1px -2.1px hsl(var(--shadow-color) / 0.1),
     72px 70.7px 113.5px -2.5px hsl(var(--shadow-color) / 0.1);
+  /*
+    --shadow-elevation-low-2: 0.7px 0.7px 1.1px hsl(var(--shadow-color-2) / 0.1),
+    1.2px 1.2px 1.9px -1.2px hsl(var(--shadow-color-2) / 0.1),
+    2.9px 2.8px 4.5px -2.5px hsl(var(--shadow-color-2) / 0.1);
+  --shadow-elevation-medium-2: 0.7px 0.7px 1.1px hsl(var(--shadow-color-2) / 0.11),
+    2.4px 2.3px 3.7px -0.8px hsl(var(--shadow-color-2) / 0.11),
+    5.9px 5.8px 9.3px -1.7px hsl(var(--shadow-color-2) / 0.11),
+    14.4px 14.1px 22.7px -2.5px hsl(var(--shadow-color-2) / 0.11);
+  --shadow-elevation-high-2: 0.7px 0.7px 1.1px hsl(var(--shadow-color-2) / 0.1),
+    4.2px 4.1px 6.6px -0.4px hsl(var(--shadow-color-2) / 0.1),
+    7.8px 7.7px 12.3px -0.7px hsl(var(--shadow-color-2) / 0.1),
+    12.9px 12.6px 20.3px -1.1px hsl(var(--shadow-color-2) / 0.1),
+    20.6px 20.2px 32.5px -1.4px hsl(var(--shadow-color-2) / 0.1),
+    32.2px 31.6px 50.8px -1.8px hsl(var(--shadow-color-2) / 0.1),
+    48.9px 48px 77.1px -2.1px hsl(var(--shadow-color-2) / 0.1),
+    72px 70.7px 113.5px -2.5px hsl(var(--shadow-color-2) / 0.1);*/
 }
 
 body {
@@ -1265,8 +1282,66 @@ Forms Section
 
 #hours {
   padding: 60px 0 30px 0;
+} 
+
+thead,
+tbody,
+tr,
+th,
+td {
+  display: block;
 }
 
+thead tr {
+  /* fallback */
+  width: 97%;
+  /* minus scroll bar width */
+  width: -webkit-calc(100% - 16px);
+  width: -moz-calc(100% - 16px);
+  width: calc(100% - 16px);
+}
+
+tr:after {
+  /* clearing float */
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+tbody {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+tbody td,
+thead th, 
+tbody th {
+  width: 20%; 
+  float: left; 
+  font-size: calc(.75em + .5vw);
+} 
+tbody td.name, thead th.name { 
+  width: 45%
+}  
+ thead th.grade, tbody td.grade { 
+  width:25%
+} 
+tbody th.id, thead th.id { 
+  width: 8%
+}
+#hours_display {
+  border-bottom: solid var(--color-blue) 25px;
+  box-shadow: 0px 0.2px 0.2px hsl(var(--shadow-color-2) / 0.24),
+    0px 1.3px 1.6px -0.3px hsl(var(--shadow-color-2) / 0.26),
+    0px 2.4px 2.9px -0.5px hsl(var(--shadow-color-2) / 0.28),
+    0px 3.8px 4.6px -0.8px hsl(var(--shadow-color-2) / 0.3),
+    -0.1px 5.7px 7px -1.1px hsl(var(--shadow-color-2) / 0.32),
+    -0.1px 8.7px 10.6px -1.3px hsl(var(--shadow-color-2) / 0.35),
+    -0.1px 12.8px 15.6px -1.6px hsl(var(--shadow-color-2) / 0.37),
+    -0.2px 18.6px 22.7px -1.8px hsl(var(--shadow-color-2) / 0.39);
+}
 /*--------------------------------------------------------------
 # officers Section
 --------------------------------------------------------------*/
@@ -1486,7 +1561,12 @@ Forms Section
 #slc .slc-gallery:hover img {
   transform: scale(1.1);
 }
-
+.award {
+  box-shadow: var(--shadow-elevation-medium);
+  background: var(--accent-blue);
+  padding: 20px;
+  text-align: center; 
+}
 /*--------------------------------------------------------------
 # Hotels Section
 --------------------------------------------------------------*/
