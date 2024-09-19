@@ -525,7 +525,22 @@ const testEventsArray = [
         timeZone: "America/New_York",
         inline: true,
         trigger: "click",
-      },
+      }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "EHT Pride Day",
+        startDate: "2024-09-21",
+        endDate: "2024-09-21",
+        startTime: "11:00",
+        endTime: "15:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
     },
     /*{
       type: "Event",
