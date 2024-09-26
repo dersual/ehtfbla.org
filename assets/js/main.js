@@ -544,6 +544,167 @@ const testEventsArray = [
       }
     },
     {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "Officer/Committe Meeting",
+        startDate: "2024-10-14",
+        endDate: "2024-10-14",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "General Meeting #3",
+        startDate: "2024-10-17",
+        endDate: "2024-10-17",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "Officer/Committee Meeting",
+        startDate: "2024-11-11",
+        endDate: "2024-11-11",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "General Meeting #4",
+        startDate: "2024-12-16",
+        endDate: "2024-12-16",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "Officer/Committee Meeting",
+        startDate: "2025-01-13",
+        endDate: "2025-01-13",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "General Meeting #5",
+        startDate: "2025-01-16",
+        endDate: "2025-01-16",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "Officer/Committee Meeting",
+        startDate: "2025-02-10",
+        endDate: "2025-02-10",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "General Meeting #6",
+        startDate: "2025-02-13",
+        endDate: "2025-02-13",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+
+
+
+    {
+      type: "Event",
+      properties: {
+        name: "Officer Training",
+        startDate: "2024-08-15",
+        endDate: "2024-08-15",
+        startTime: "9:00",
+        endTime: "12:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Freshman Orientation",
+        startDate: "2024-08-26",
+        endDate: "2024-08-26",
+        startTime: "9:00",
+        endTime: "12:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
       type: "Event",
       properties: {
         name: "EHT Pride Day",
@@ -558,6 +719,217 @@ const testEventsArray = [
         trigger: "click",
        }
     },
+    {
+      type: "Event",
+      properties: {
+        name: "Community Service: Shoprite Bagging",
+        startDate: "2024-10-12",
+        endDate: "2024-10-12",
+        startTime: "10:00",
+        endTime: "14:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Community Service: Trunk or Treat",
+        startDate: "2024-10-19",
+        endDate: "2024-10-19",
+        startTime: "16:00",
+        endTime: "19:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Fall Summit at Kean University (TBD)",
+        startDate: "2024-10-23",
+        endDate: "2024-10-23",
+        startTime: "12:00",
+        endTime: "12:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Fundraiser: Bake Sale",
+        startDate: "2024-10-24",
+        endDate: "2024-10-24",
+        startTime: "14:10",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Multi-club Holiday party",
+        startDate: "2024-11-11",
+        endDate: "2024-11-11",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Induction Dinner",
+        startDate: "2024-11-14",
+        endDate: "2024-11-14",
+        startTime: "14:00",
+        endTime: "14:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Community Service: Turkey Drive",
+        startDate: "2024-11-16",
+        endDate: "2024-11-16",
+        startTime: "12:00",
+        endTime: "12:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Community Service: Shoprite Bagging",
+        startDate: "2024-12-14",
+        endDate: "2024-12-14",
+        startTime: "10:00",
+        endTime: "14:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Multi-club Holiday party",
+        startDate: "2024-12-19",
+        endDate: "2024-12-19",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Community Service: Shoprite Bagging",
+        startDate: "2025-01-25",
+        endDate: "2025-01-25",
+        startTime: "10:00",
+        endTime: "14:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "FBLA WEEK",
+        startDate: "2025-02-09",
+        endDate: "2025-02-15",
+        startTime: "00:00",
+        endTime: "23:59",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "Fundraiser: Spike-A-Thon",
+        startDate: "2025-02-28",
+        endDate: "2025-02-28",
+        startTime: "17:00",
+        endTime: "21:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "SLC",
+        startDate: "2025-03-10",
+        endDate: "2025-03-12",
+        startTime: "15:00",
+        endTime: "12:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+    {
+      type: "Event",
+      properties: {
+        name: "NLC",
+        startDate: "2025-06-29",
+        endDate: "2025-07-02",
+        startTime: "12:00",
+        endTime: "12:00",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
+
     /*{
       type: "Event",
       properties: {
