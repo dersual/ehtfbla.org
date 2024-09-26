@@ -513,11 +513,27 @@ const testEventsArray = [
   const eventsArray = [
     {
       type: "Meeting",
-      location: "Lower Cafeteria",
+      location: "Middle Cafeteria",
       properties: {
         name: "General Meeting #1",
         startDate: "2024-09-16",
         endDate: "2024-09-16",
+        startTime: "14:00",
+        endTime: "15:10",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+      }
+    },
+    {
+      type: "Meeting",
+      location: "Middle Cafeteria",
+      properties: {
+        name: "General Meeting #2",
+        startDate: "2024-09-26",
+        endDate: "2024-09-26",
         startTime: "14:00",
         endTime: "15:10",
         label: "Add To Calendar",
