@@ -929,6 +929,21 @@ const testEventsArray = [
         trigger: "click",
        }
     },
+    {
+      type: "Workshop",
+      properties: {
+        name: "Resume Building",
+        startDate: "2025-04-10",
+        endDate: "2025-04-10",
+        startTime: "14:00",
+        endTime: "15:15",
+        label: "Add To Calendar",
+        options: ["Google", "Microsoft365", "Yahoo", "Apple"],
+        timeZone: "America/New_York",
+        inline: true,
+        trigger: "click",
+       }
+    },
 
     /*{
       type: "Event",
