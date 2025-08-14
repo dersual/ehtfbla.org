@@ -29,6 +29,8 @@ Mustafa Samet Cimen
 Derrick Sual
 [@derrick.sual](https://linktr.ee/derrick.sual)
 
+Alex Chen
+
 ## Version History  
 Where major feature additions, structural changes, and bug fixes should be documented. 
 - 0.8 
